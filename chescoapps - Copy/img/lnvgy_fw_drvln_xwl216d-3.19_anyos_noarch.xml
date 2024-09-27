@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ibmupdate.xsl"?>
+<!DOCTYPE CIM SYSTEM "cimv20.dtd">
+<CIM CIMVERSION="2.0" DTDVERSION="2.0">
+    <MESSAGE ID="1" PROTOCOLVERSION="1.0">
+        <SIMPLEREQ>
+            <IMETHODCALL NAME="CreateInstance">
+                <LOCALNAMESPACEPATH>
+                    <NAMESPACE NAME="root"/>
+                    <NAMESPACE NAME="cimv2"/>
+                </LOCALNAMESPACEPATH>
+                <IPARAMVALUE NAME="NewInstance">
+                    <INSTANCE CLASSNAME="IBMPSG_SystemUpdateElement">
+                        <PROPERTY NAME="SoftwareElementID" TYPE="string">
+                            <VALUE>XWL2</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="Version" TYPE="string">
+                            <VALUE>Version 3.19 -[xwl216d-3.19]-</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="buildNumber" TYPE="string">
+                            <VALUE>xwl216d</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="identificationCode" TYPE="string">
+                            <VALUE>lnvgy_fw_drvln_xwl216d-3.19_anyos_noarch</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="xmlFilename" TYPE="string">
+                            <VALUE>lnvgy_fw_drvln_xwl216d-3.19_anyos_noarch.xml</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="installCommandLine" TYPE="string">
+                            <VALUE/>
+                        </PROPERTY>
+                        <PROPERTY NAME="unattendedInstallCommandLine" TYPE="string">
+                            <VALUE>uxspi up -e all -i [ lnvgy_fw_drvln_xwl216d-3.19_anyos_noarch.uxz -s all -u --latest --ignore-req</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="rebootRequired" TYPE="uint8">
+                            <VALUE>0</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="SoftwareElementState" TYPE="uint16">
+                            <VALUE>1</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="ibmSchemaVersion" TYPE="string">
+                            <VALUE>3.1</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="installDirectory" TYPE="string">
+                            <VALUE>.</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="installationNotes" TYPE="string">
+                            <VALUE>See Readme file</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="languageEdition" TYPE="string">
+                            <VALUE>All</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="manufacturer" TYPE="string">
+                            <VALUE>Lenovo</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="regions" TYPE="string">
+                            <VALUE>Worldwide</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="revisionHistory" TYPE="string">
+                            <VALUE>See Change History file</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="crcType" TYPE="uint32">
+                            <VALUE>2</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="unpack" TYPE="uint16">
+                            <VALUE>0</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="updateSelection" TYPE="string">
+                            <VALUE>auto</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="installLog" TYPE="string">
+                            <VALUE>.</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="payloadCompressionType" TYPE="uint32">
+                            <VALUE>0</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="unattendedUninstallCommandLine" TYPE="string">
+                            <VALUE>not supported</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="uninstallCommandLine" TYPE="string">
+                            <VALUE>not supported</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="crc" TYPE="string">
+                            <VALUE>5b226ef8</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="size" TYPE="uint32">
+                            <VALUE>89166</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="payload" TYPE="string">
+                            <VALUE>lnvgy_fw_drvln_xwl216d-3.19_anyos_noarch.uxz</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="readme" TYPE="string">
+                            <VALUE>lnvgy_fw_drvln_xwl216d-3.19_anyos_noarch.txt</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="revisionHistoryFile" TYPE="string">
+                            <VALUE>lnvgy_fw_drvln_xwl216d-3.19_anyos_noarch.chg</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="Name" TYPE="string">
+                            <VALUE>Lenovo Core Firmware LXPM Linux Deployment Drivers Any OS Firmware</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="description" TYPE="string">
+                            <VALUE>System Support: ThinkSystem SD630 V2, ThinkSystem SD650 V2, ThinkSystem SD670 V2, ThinkSystem SR860 V2, ThinkSystem SN550 V2, ThinkSystem SR650 V2, ThinkSystem ST650 V2, ThinkSystem ST658 V2, ThinkSystem SR860 V2 for SAP, ThinkSystem SR850 V2, ThinkSystem SR850 V2 for SAP, ThinkSystem SR670 V2, ThinkSystem ST250 V2, ThinkSystem ST258 V2, ThinkSystem SR250 V2, ThinkSystem SR258 V2, ThinkSystem SR650 V2 SAP, ThinkSystem SR630 V2&amp;lt;br&amp;gt;OS Support: Any OS</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="releaseDate" TYPE="datetime">
+                            <VALUE>20221213000000.000000-300</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="timestamp" TYPE="datetime">
+                            <VALUE>20221213035631.000000-300</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="severity" TYPE="uint8">
+                            <VALUE>0</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="category" TYPE="string">
+                            <VALUE>DRVLN</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="TargetOperatingSystem" TYPE="uint16">
+                            <VALUE>0</VALUE>
+                        </PROPERTY>
+                        <PROPERTY NAME="type" TYPE="uint16">
+                            <VALUE>1</VALUE>
+                        </PROPERTY>
+                        <PROPERTY.ARRAY NAME="applicableMachineTypes" TYPE="string">
+                            <VALUE.ARRAY>
+                                <VALUE>ThinkSystem SD630 V2-[7D1K]-</VALUE>
+                                <VALUE>ThinkSystem SD650 V2-[7D1M]-</VALUE>
+                                <VALUE>ThinkSystem SD670 V2-[7D1N]-</VALUE>
+                                <VALUE>ThinkSystem SR860 V2-[7Z59]-</VALUE>
+                                <VALUE>ThinkSystem SR860 V2-[7Z60]-</VALUE>
+                                <VALUE>ThinkSystem SN550 V2-[7Z69]-</VALUE>
+                                <VALUE>ThinkSystem SR650 V2-[7Z72]-</VALUE>
+                                <VALUE>ThinkSystem SR650 V2-[7Z73]-</VALUE>
+                                <VALUE>ThinkSystem ST650 V2-[7Z74]-</VALUE>
+                                <VALUE>ThinkSystem ST650 V2-[7Z75]-</VALUE>
+                                <VALUE>ThinkSystem ST658 V2-[7Z76]-</VALUE>
+                                <VALUE>ThinkSystem SR860 V2 for SAP-[7D42]-</VALUE>
+                                <VALUE>ThinkSystem SR850 V2-[7D32]-</VALUE>
+                                <VALUE>ThinkSystem SR850 V2 for SAP-[7D33]-</VALUE>
+                                <VALUE>ThinkSystem SR850 V2-[7D31]-</VALUE>
+                                <VALUE>ThinkSystem SR670 V2-[7Z22]-</VALUE>
+                                <VALUE>ThinkSystem SR670 V2-[7Z23]-</VALUE>
+                                <VALUE>ThinkSystem ST250 V2-[7D8F]-</VALUE>
+                                <VALUE>ThinkSystem ST250 V2-[7D8G]-</VALUE>
+                                <VALUE>ThinkSystem ST258 V2-[7D8H]-</VALUE>
+                                <VALUE>ThinkSystem SR250 V2-[7D7R]-</VALUE>
+                                <VALUE>ThinkSystem SR250 V2-[7D7Q]-</VALUE>
+                                <VALUE>ThinkSystem SR258 V2-[7D7S]-</VALUE>
+                                <VALUE>ThinkSystem SR650 V2 SAP-[7D15]-</VALUE>
+                                <VALUE>ThinkSystem SR630 V2-[7Z70]-</VALUE>
+                                <VALUE>ThinkSystem SR630 V2-[7Z71]-</VALUE>
+                            </VALUE.ARRAY>
+                        </PROPERTY.ARRAY>
+                        <PROPERTY.ARRAY NAME="applicableOperatingSystems" TYPE="string">
+                            <VALUE.ARRAY>
+                                <VALUE>NONE</VALUE>
+                            </VALUE.ARRAY>
+                        </PROPERTY.ARRAY>
+                        <PROPERTY.ARRAY NAME="orderedMachineTypeList" TYPE="string">
+                            <VALUE.ARRAY>
+                                <VALUE>7D1K</VALUE>
+                                <VALUE>7D1M</VALUE>
+                                <VALUE>7D1N</VALUE>
+                                <VALUE>7Z59</VALUE>
+                                <VALUE>7Z60</VALUE>
+                                <VALUE>7Z69</VALUE>
+                                <VALUE>7Z72</VALUE>
+                                <VALUE>7Z73</VALUE>
+                                <VALUE>7Z74</VALUE>
+                                <VALUE>7Z75</VALUE>
+                                <VALUE>7Z76</VALUE>
+                                <VALUE>7D42</VALUE>
+                                <VALUE>7D32</VALUE>
+                                <VALUE>7D33</VALUE>
+                                <VALUE>7D31</VALUE>
+                                <VALUE>7Z22</VALUE>
+                                <VALUE>7Z23</VALUE>
+                                <VALUE>7D8F</VALUE>
+                                <VALUE>7D8G</VALUE>
+                                <VALUE>7D8H</VALUE>
+                                <VALUE>7D7R</VALUE>
+                                <VALUE>7D7Q</VALUE>
+                                <VALUE>7D7S</VALUE>
+                                <VALUE>7D15</VALUE>
+                                <VALUE>7Z70</VALUE>
+                                <VALUE>7Z71</VALUE>
+                            </VALUE.ARRAY>
+                        </PROPERTY.ARRAY>
+                        <PROPERTY.ARRAY NAME="orderedOSList" TYPE="uint32">
+                            <VALUE.ARRAY>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                            </VALUE.ARRAY>
+                        </PROPERTY.ARRAY>
+                        <PROPERTY.ARRAY NAME="orderedOSArchitectureList" TYPE="uint32">
+                            <VALUE.ARRAY>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                                <VALUE>0</VALUE>
+                            </VALUE.ARRAY>
+                        </PROPERTY.ARRAY>
+                    </INSTANCE>
+                </IPARAMVALUE>
+            </IMETHODCALL>
+        </SIMPLEREQ>
+    </MESSAGE>
+</CIM>

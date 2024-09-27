@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title data-key="pageTitle">CHESCO Apps</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="img/chescocpy.png" alt="CHESCO logo" class="logo">
+            </div>
+            <div class="title-container">
+            <h1 class="title">
+                Center for Hybrid Electric Systems Cottbus/Strukturwandel<br>
+                <span class="subtitle">We make green mobility happen</span>
+            </h1>
+        </div>
+
+        <div class="language-switcher">
+                <label for="language"> Select Language:</label>
+                <select id="language" onchange="setLanguage(this.value)">
+                    <option value="en">English</option>
+                    <option value="de">Deutsch</option>
+                </select>
+            </div>
+  
+    </div>
+    </header>
+
+      
+    <main>
+        <div class="container">
+            <section>
+                <h2>LINKS</h2>
+                <div class="links-container">
+                    <!-- Digital Ops Section -->
+                    <div>
+                        <h3>Digital Ops:</h3>
+                        <a href="https://forms.office.com/e/RwBV9pz6Xb" class="tooltip-link">
+                            New Starter Form
+                            <span class="tooltip">Please fill out this form for a new starter.</span>
+                        </a><br>
+                        <a href="#" class="tooltip-link">
+                            Service Request
+                            <span class="tooltip">Please fill this out for any service-related requests.</span>
+                        </a>
+                    </div>
+            
+                    <!-- Incident Management System Section -->
+                    <div>
+                        <h3>Incident Management:</h3>
+                        <a href="https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=WyWbULMT9Eq9lJU2zKPGH3Ro22JyHtdNjijxfZAslvVURTRRMjdKTU1EUzBOMFE2NFQyRFU2QjJFRCQlQCN0PWcu&topview=Preview" class="tooltip-link">
+                            Incident Form
+                            <span class="tooltip">Please fill this out for all breakages, outages, bugs, and security incidents.</span>
+                        </a>
+                    </div>
+            
+                    <!-- Development Section -->
+                    <div>
+                        <h3>Development:</h3>
+                        <a href="https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=WyWbULMT9Eq9lJU2zKPGH3Ro22JyHtdNjijxfZAslvVUOFBQN1MzTTFDOFVWRUlBVldNSE1XQ0JUMCQlQCN0PWcu&topview=Preview" class="tooltip-link">
+                            New Tasks / Development
+                            <span class="tooltip">Please fill this out for new tasks / projects you would like Digital to develop.</span>
+                        </a>
+                    </div>
+                </div>
+
+
+                
+            </section>
+
+
+
+            <section>
+                <h2 class="toggle-header" onclick="toggleContent('general-content')">
+                    General Apps <span class="expand-btn"><i class="fas fa-plus-circle"></i></span>
+                </h2>
+                <ul class="apps expandable-content" id="general-content">
+                    <li>
+                        <a href="https://www.b-tu.de/ikmz/booked/Web/schedule.php"> 
+                            <img src="img/booking.jpg" alt="App 1" class="applogo">
+                            <div class="app-details">
+                                <h3>Booked Scheduler</h3>
+                            </div>
+                        </a>
+                        <div class="contact">
+                            <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Joerg Engelmann</span>
+                            <div class="contact-icons">
+                                <a href="mailto:joerg.engelmann@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                <a href="https://teams.microsoft.com/l/chat/0/0?users=joerg.engelmann@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                            </div>
+                        </div>
+                        <div class="app-info">
+                            <p>Booked Scheduler is a scheduling application that allows users to book resources like rooms, and more, making it ideal for managing reservations and appointments.</p>
+                        </div>
+                    </li>
+                    <li>
+                            <img src="img/nextcloud.png" alt="App 1" class="applogo">
+                            <div class="app-details">
+                                <h3> <a href="https://www.b-tu.de/chesco/cloud/login?redirect_url=/chesco/cloud/apps/dashboard/#/"> Nextcloud BTU</h3>
+                                    <h3><a href="https://nextcloud.chesco.de">Nextcloud CHESCO</a></h3> 
+                            </div>   
+                        <div class="contact">
+                            <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Joerg Engelmann</span>
+                            <div class="contact-icons">
+                                <a href="mailto:joerg.engelmann@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                <a href="https://teams.microsoft.com/l/chat/0/0?users=joerg.engelmann@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                            </div>
+                        </div>
+                        <div class="app-info">
+                            <p>Nextcloud is a platform for cloud storage and collaboration, providing secure file sharing, synchronization, and online collaboration tools.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https:openprojectlinkhere">
+                            <img src="img/open_project.jpeg" alt="App 4" class="applogo">
+                            <div class="app-details">
+                                <h3> <a href="openproject BTU">OpenProject BTU</h3>
+                                    <h3><a href="https://www.openproject.chesco.de">OpenProject CHESCO</a></h3> 
+                            </div>
+                        </a>    
+                        <div class="contact">
+                            <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Joerg Engelmann</span>
+                            <div class="contact-icons">
+                                <a href="mailto:joerg.engelmann@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                <a href="https://teams.microsoft.com/l/chat/0/0?users=joerg.engelmann@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                            </div>
+                        </div>
+                        <div class="app-info">
+                            <p>Open Project is a project management software enabling seamless team collaboration and task management. With features like agile boards, time tracking, and collaborative document editing, OpenProject enhances productivity and transparency in project workflows.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https:hedgedoc.chesco.de">
+                            <img src="img/hedgedoc.jpg" alt="App 4" class="applogo">
+                            <div class="app-details">
+                                <h3>Hedgedoc</h3>
+                            </div>
+                        </a>    
+                        <div class="contact">
+                            <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Joerg Engelmann</span>
+                            <div class="contact-icons">
+                                <a href="mailto:joerg.engelmann@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                <a href="https://teams.microsoft.com/l/chat/0/0?users=joerg.engelmann@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                            </div>
+                        </div>
+                        <div class="app-info">
+                            <p>Hedgedoc is an open-source, web-based, self-hosted, collaborative markdown editor.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https:passbolt.chesco.de">
+                            <img src="img/passbolt.png" alt="App 4" class="applogo">
+                            <div class="app-details">
+                                <h3>Passbolt</h3>
+                            </div>
+                        </a>    
+                        <div class="contact">
+                            <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Joerg Engelmann</span>
+                            <div class="contact-icons">
+                                <a href="mailto:joerg.engelmann@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                <a href="https://teams.microsoft.com/l/chat/0/0?users=joerg.engelmann@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                            </div>
+                        </div>
+                        <div class="app-info">
+                            <p>Passbolt is an Open Source password manager for teams. It allows your team to securely share and store credentials.</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="https://erpnext.chesco.de/">
+                            <img src="img/erpnext.png" alt="App 4" class="applogo">
+                            <div class="app-details">
+                                <h3>ErpNext</h3>
+                            </div>
+                        </a>    
+                        <div class="contact">
+                            <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Joerg Engelmann</span>
+                            <div class="contact-icons">
+                                <a href="mailto:joerg.engelmann@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                <a href="https://teams.microsoft.com/l/chat/0/0?users=joerg.engelmann@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                            </div>
+                        </div>
+                        <div class="app-info">
+                            <p>ERPNext is a full-featured business management solution that helps SMEs to record all their business transactions in a single system.</p>
+                        </div>
+                    </li>
+
+                    
+            
+                    
+                    <!-- Add more general apps here -->
+                </ul>
+            </section>
+            
+            <section>
+                <h2 class="toggle-header" onclick="toggleContent('simulation-content')">
+                    Simulation Apps <span class="expand-btn"><i class="fas fa-plus-circle"></i></span>
+                </h2>
+                <ul class="apps expandable-content" id="simulation-content">
+                    <li>
+                        <a href="https://www.sentesoftware.co.uk">
+                            <img src="img/jmat_pro.jpeg" alt="App 3" class="applogo">
+                            <div class="app-details">
+                                <h3>JMatPro</h3>
+                            </div>
+                        </a>
+                        <div class="contact">
+                            <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Joerg Engelmann</span>
+                            <div class="contact-icons">
+                                <a href="mailto:joerg.engelmann@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                <a href="https://teams.microsoft.com/l/chat/0/0?users=joerg.engelmann@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                            </div>
+                        </div>
+                        <div class="app-info">
+                            <p>JMatPro is a materials modeling software that enables users to predict and analyze the thermophysical and mechanical properties of materials under different conditions, aiding in material selection, design optimization, and process improvement.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://hexagon.com">
+                            <img src="img/simifact.png" alt="App 5" class="applogo">
+                            <div class="app-details">
+                                <h3>Simufact</h3>
+                            </div>
+                        </a>    
+                        <div class="contact">
+                            <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Joerg Engelmann</span>
+                            <div class="contact-icons">
+                                <a href="mailto:joerg.engelmann@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                <a href="https://teams.microsoft.com/l/chat/0/0?users=joerg.engelmann@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                            </div>
+                        </div>
+                        <div class="app-info">
+                            <p>Simufact Additive is a simulation software for metal additive manufacturing processes. It helps predict and mitigate issues like distortion, residual stresses, and supports optimization, ensuring high-quality 3D printed parts. Simufact Forming is a robust simulation tool for the metal forming industry. It covers a wide range of processes such as forging, rolling, and sheet metal forming, enabling the optimization of production processes and material utilization. Simufact Welding specializes in the simulation of welding processes, including arc welding, laser welding, and resistance welding. It assists in predicting thermal behavior, distortions, and residual stresses, improving welding quality and efficiency.</p>
+                        </div>
+                    </li>    
+                    <li>
+                        <a href="https://www.micress.de">
+                            <img src="img/micress.jpeg" alt="App 6" class="applogo">
+                            <div class="app-details">
+                                <h3>Micress</h3>
+                            </div>
+                        </a>
+
+                        <div class="contact">
+                            <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Joerg Engelmann</span>
+                            <div class="contact-icons">
+                                <a href="mailto:joerg.engelmann@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                <a href="https://teams.microsoft.com/l/chat/0/0?users=joerg.engelmann@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                            </div>
+                        </div>
+                        <div class="app-info">
+                            <p>Micress, also known as MICRostructure Evolution Simulation Software, is a specialized computational tool used in materials science and metallurgy research. It enables researchers to simulate the microstructural evolution of metals and alloys during various thermal and mechanical processes such as solidification, phase transformation, and heat treatment.</p>
+                        </div>
+                    </li>    
+                    <li>
+                        <a href="https://thermocalc.com">
+                            <img src="img/thermocalc.jpeg" alt="App 7" class="applogo">
+                            <div class="app-details">
+                                <h3>Thermocalc</h3>
+                            </div>
+                        </a>
+                        <div class="contact">
+                            <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Joerg Engelmann</span>
+                            <div class="contact-icons">
+                                <a href="mailto:joerg.engelmann@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                <a href="https://teams.microsoft.com/l/chat/0/0?users=joerg.engelmann@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                            </div>
+                        </div>
+                        <div class="app-info">
+                            <p>Thermo-Calc is a powerful software package widely used in materials science and engineering. It provides comprehensive tools for thermodynamic calculations and phase diagram modeling. With Thermo-Calc, users can predict and analyze phase equilibria, phase transformations, and material properties under different temperature, pressure, and composition conditions. It's utilized in various industries, including metallurgy, ceramics, and materials research, to optimize processes, design new materials, and understand complex phase behaviors.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://prod.polarion.chesco.de/polarion/">
+                            <img src="img/polarion.jpeg" alt="App 7" class="applogo">
+                            <div class="app-details">
+                                <h3>Polarion</h3>
+                            </div>
+                        </a>
+                        <div class="contact">
+                            <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Joerg Engelmann</span>
+                            <div class="contact-icons">
+                                <a href="mailto:joerg.engelmann@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                <a href="https://teams.microsoft.com/l/chat/0/0?users=joerg.engelmann@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                            </div>
+                        </div>
+                        <div class="app-info">
+                            <p>Polarion is a comprehensive application lifecycle management (ALM) solution designed to streamline and enhance the development process of complex software and hardware projects. It offers a range of features including requirements management, project planning, task tracking, version control, quality assurance, and reporting. With its collaborative platform, Polarion enables teams to work together efficiently, ensuring traceability, compliance, and improved productivity throughout the entire project lifecycle.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://plm.sw.siemens.com/en-US/nx/">
+                            <img src="img/nxcad.jpeg" alt="App 7" class="applogo">
+                            <div class="app-details">
+                                <h3 a href="#tab1">NX CAD</h3>
+                            </div>
+                        </a>
+                        <div class="contact">
+                            <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Joerg Engelmann</span>
+                            <div class="contact-icons">
+                                <a href="mailto:joerg.engelmann@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                <a href="https://teams.microsoft.com/l/chat/0/0?users=joerg.engelmann@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                            </div>
+                        </div>
+                        <div class="app-info">
+                            <p>NX CAD is a powerful Computer-Aided Design (CAD) software developed by Siemens. It offers comprehensive tools for 3D modeling, drafting, and product development. NX CAD provides advanced parametric modeling capabilities, allowing designers to create complex geometries and assemblies with precision and efficiency. The software supports various modeling techniques, including solid modeling, surface modeling, and synchronous modeling, enabling users to design diverse range of products across industries. NX CAD also offers integrated simulation and analysis tools, helping designers validate and optimize their designs before prototyping and manufacturing. </p>
+                            </div>
+                    </li>
+                    <li>
+                        <a href="https://plm.sw.siemens.com/en-US/nx/">
+                            <img src="img/nxcam.jpeg" alt="App 7" class="applogo">
+                            <div class="app-details">
+                                <h3 a href="#tab1">NX CAM</h3>
+                            </div>
+                        </a>
+                        <div class="contact">
+                            <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Joerg Engelmann</span>
+                            <div class="contact-icons">
+                                <a href="mailto:joerg.engelmann@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                <a href="https://teams.microsoft.com/l/chat/0/0?users=joerg.engelmann@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                            </div>
+                        </div>
+                        <div class="app-info">
+                            <p>NX CAM is a leading Computer-Aided Manufacturing (CAM) software solution developed by Siemens. It offers advanced capabilities for generating toolpaths and controlling CNC (Computer Numerical Control) machines. With NX CAM, users can efficiently program complex machining operations, including milling, turning, and multi-axis machining. The software provides a wide range of machining strategies, simulation tools, and post-processing capabilities to optimize manufacturing processes and improve productivity. It integrates seamlessly with CAD systems, enabling smooth transition from design to manufacturing. </p>
+                            </div>
+                    </li>
+                    <li>
+                        <a href="https://plm.sw.siemens.com/en-US/simcenter/">
+                            <img src="img/simcenter.jpeg" alt="App 7" class="applogo">
+                            <div class="app-details">
+                                <h3 a href="#tab1">Simcenter</h3>
+                            </div>
+                        </a>
+                        <div class="contact">
+                            <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Joerg Engelmann</span>
+                            <div class="contact-icons">
+                                <a href="mailto:joerg.engelmann@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                <a href="https://teams.microsoft.com/l/chat/0/0?users=joerg.engelmann@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                            </div>
+                        </div>
+                        <div class="app-info">
+                            <p>Simcenter, developed by Siemens, is a robust simulation and testing software platform. It covers various simulation disciplines like finite element analysis (FEA), computational fluid dynamics (CFD), and multi-body dynamics (MBD). Simcenter assists in optimizing product performance, reliability, and durability, enhancing engineering productivity through simulation data management and collaboration capabilities. </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://prod.teamcenter.chesco.de/">
+                            <img src="img/teamcenter.jpeg" alt="App 7" class="applogo">
+                            <div class="app-details">
+                                <h3 a href="#tab1">Teamcenter</h3>
+                            </div>
+                        </a>
+                        <div class="contact">
+                            <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Joerg Engelmann</span>
+                            <div class="contact-icons">
+                                <a href="mailto:joerg.engelmann@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                <a href="https://teams.microsoft.com/l/chat/0/0?users=joerg.engelmann@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                            </div>
+                        </div>
+                        <div class="app-info">
+                            <p>Teamcenter, another Siemens solution, is a Product Lifecycle Management (PLM) software. It acts as a centralized hub for managing product-related data, processes, and collaboration across the product lifecycle. Teamcenter facilitates requirements management, design, manufacturing, change management, and workflow automation, ensuring data integrity and traceability. </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://de.mathworks.com/products/matlab/">
+                            <img src="img/matlab.jpeg" alt="App 7" class="applogo">
+                            <div class="app-details">
+                                <h3 a href="#tab1">MATLAB</h3>
+                            </div>
+                        </a>
+                        <div class="contact">
+                            <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Joerg Engelmann</span>
+                            <div class="contact-icons">
+                                <a href="mailto:joerg.engelmann@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                <a href="https://teams.microsoft.com/l/chat/0/0?users=joerg.engelmann@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                            </div>
+                        </div>
+                        <div class="app-info">
+                            <p>MATLAB,  is a programming language and environment. Widely used in academia, research, and industry, MATLAB offers extensive tools for numerical computing, data analysis, algorithm development, and simulation. Its user-friendly interface and vast library of functions make it suitable for various applications, from mathematical modeling to engineering analysis. </p>
+                            </div>
+                    </li>
+                
+                    </ul>
+            </section>
+            <section>
+                <h2 class="toggle-header" onclick="toggleContent('other-content')">
+                    Other Apps <span class="expand-btn"><i class="fas fa-plus-circle"></i></span>
+                </h2>
+                <ul class="apps expandable-content" id="other-content">
+						<li>
+							<a href="https://grafana.chesco.de"> 
+								<img src="img/grafana.jpg" alt="App 1" class="applogo">
+								<div class="app-details">
+                                    <h3 a href="#tab1">Grafana</h3>
+                                </div>
+							</a>	
+							<div class="contact">
+                                <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Ankit Gaur</span>
+                                <div class="contact-icons">
+                                    <a href="mailto:ankit.gaur@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                    <a href="https://teams.microsoft.com/l/chat/0/0?users=ankit.gaur@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                                </div>
+                            </div>
+							<div class="app-info">
+								<p>Grafana is an open-source analytics and monitoring platform designed for visualizing time-series data. It allows users to create customizable dashboards with graphs, charts, and alerts, making it suitable for monitoring systems, applications, and infrastructure performance.</p>
+							</div>
+						</li>
+						<li>
+							<a href="https://visualstudio.microsoft.com/vs/community/">
+								<img src="img/vs.png" alt="App 2" class="applogo">
+								<div class="app-details">
+                                    <h3 a href="#tab1">Visual-studio</h3>
+                                </div>
+							</a>	
+                            <div class="contact">
+                                <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Modupe Odusanya</span>
+                                <div class="contact-icons">
+                                    <a href="mailto:odusanya@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                    <a href="https://teams.microsoft.com/l/chat/0/0?users=odusanya@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                                </div>
+                            </div>
+							<div class="app-info">
+								<p>Visual Studio is an integrated development environment (IDE) developed by Microsoft. It provides a comprehensive set of tools for software development, including code editing, debugging, and version control. Visual Studio supports various programming languages such as C#, C++, and Python, and it offers extensive customization options through extensions.</p>
+								<!--<p>Contact: deepak.shrestha(<a href="mailto:deepak.shrestha@b-tu.de">deepak.shrestha@b-tu.de</a>)</p>-->
+							</div>
+						</li>
+						<li>
+							<a href="https://www.draw.io/">
+								<img src="img/draw i.o.png" alt="App 4" class="applogo">
+								<div class="app-details">
+                                    <h3 a href="#tab1">Draw i.o</h3>
+                                </div>
+							</a>	
+                            <div class="contact">
+                                <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Modupe Odusanya</span>
+                                <div class="contact-icons">
+                                    <a href="mailto:odusanya@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                    <a href="https://teams.microsoft.com/l/chat/0/0?users=odusanya@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                                </div>
+                            </div>
+							<div class="app-info">
+								<p>draw.io is a web-based diagramming tool that allows users to create flowcharts, diagrams, wireframes, and other visual representations. It offers a wide range of shapes, icons, and templates, making it versatile for various diagramming needs. draw.io is known for its user-friendly interface and collaborative features, allowing multiple users to work on diagrams simultaneously.</p>
+							</div>
+							</li>
+							<li>
+								<a href="https://gitlab.chesco.de"> 
+									<img src="img/download (2).png" alt="App 1" class="applogo" class="applogo">
+                                    <div class="app-details">
+                                        <h3 a href="#tab1">Gitlab</h3>
+                                    </div>
+							</a>
+                            <div class="contact">
+                                <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Ankit Gaur</span>
+                                <div class="contact-icons">
+                                    <a href="mailto:ankit.gaur@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                    <a href="https://teams.microsoft.com/l/chat/0/0?users=ankit.gaur@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                                </div>
+                            </div>
+									<div class="app-info">
+										<p>GitLab is an efficient and comprehensive platform for managing code repositories. With GitLab, teams can securely store and version control their codebase, collaborate on projects, track issues, manage merge requests, and automate CI/CD pipelines.</p>
+									</div>
+							</li>
+							<li>
+								<a href="https://snipeit.chesco.de">
+									<img src="img/18605133.png" alt="App 2" class="applogo">
+									<div class="app-details">
+                                        <h3 a href="#tab1">Snipe IT</h3>
+                                    </div>
+								</a>	
+                                <div class="contact">
+                                    <span class="contact-name" onclick="toggleContactOptions(this)">Contact: Modupe Odusanya</span>
+                                    <div class="contact-icons">
+                                        <a href="mailto:odusanya@b-tu.de"><img src="img/tiny.png" alt="Email icon"></a>
+                                        <a href="https://teams.microsoft.com/l/chat/0/0?users=odusanya@b-tu.de"><img src="img/5e8cdf0a664eae000408545b.png" alt="Microsoft Teams icon"></a>
+                                    </div>
+                                </div>
+								<div class="app-info">
+									<p>Snipe-IT is an open-source IT asset management platform designed for streamlined tracking and administration of hardware and software resources. With features including asset tracking, user management, and robust reporting capabilities, Snipe-IT simplifies IT asset management, enhancing efficiency and organization within your business.</p>
+									<!--<p>Contact: deepak.shrestha(<a href="mailto:deepak.shrestha@b-tu.de">deepak.shrestha@b-tu.de</a>)</p>-->
+								</div>
+							</li>
+
+						<!-- Add more other apps here -->
+					</ul>
+            </section>
+
+            <section class="software-overview-container">
+                <section class="software-overview-container">
+                    <h2 class="toggle-header" onclick="toggleContent('tech-stack-content')">
+                        Tech Stack <span class="expand-btn"><i class="fas fa-plus-circle"></i></span>
+                    </h2>
+                    <ul class="software-overview" id="tech-stack-content">
+                        <li>
+                            <h3>Container Plattform</h3>
+                            <ul>
+                                <li>Docker - Open Source
+                                    Docker is an open-source containerization platform that allows developers to package, distribute, and run applications as lightweight, portable containers. These containers encapsulate everything an application needs to run, including code, runtime, system tools, and libraries, ensuring consistency across different environments.
+                                </li>
+                                <li>Kubernetes - Open Source
+                                    Kubernetes, often abbreviated as K8s, is an open-source container orchestration tool that automates the deployment, scaling, and management of containerized applications.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>Datenbank SQL – MSSQL</h3>
+                            <ul>
+                                <li>
+                                    <p>MSSQL: is a widely-used relational database management system (RDBMS) developed by Microsoft. It provides a robust and scalable platform for storing, managing, and retrieving data. It enables efficient data management, high performance, and reliable data integrity. It serves as a server-side database system.</p>
+                                    <p>AZURE DATA STUDIO: is a client tool that can be used to interact with MSSQL and perform various tasks such as querying, database administration, and development. Download link: <a href="https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-ver15">Azure Data Studio</a></p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>Datenbank NOSQL</h3>
+                            <p>MongoDB - is a NoSQL database that offers high performance, scalability, and flexibility for handling unstructured or semi-structured data. It uses a document-oriented model, storing data in flexible JSON-like documents, which allows for easier integration with applications. MongoDB's distributed architecture and dynamic schema make it suitable for a wide range of use cases, from mobile apps to large-scale enterprise applications.</p>
+                        </li>
+                        <li>
+                            <h3>Passwort-Manager</h3>
+                            <p>KeePass and Passbolt -- are both robust password managers designed to securely store and manage your passwords. They use encryption to safeguard your data and offer features like password generation and autofill to enhance security and convenience. With KeePass, you manage your database locally, while Passbolt emphasizes collaboration and sharing among teams with its open-source platform.</p>
+                        </li>
+                        <li>
+                            <h3>Keycloak</h3>
+                            <p>Keycloak is an identity and access management tool used for Single Sign-On (SSO). It enables users to log in once and access multiple applications securely, supporting various authentication methods like social logins and multi-factor authentication.</p>
+                        </li>
+                        <li>
+                            <h3>System-Modellierungs-System</h3>
+                            <p>
+                                <p>Eclipse Papyrus </p>
+                                <a href="https://www.eclipse.org/papyrus/">https://www.eclipse.org/papyrus/</a>
+                                <p>Papyrus is a graphical editing tool for UML 2 and SysML 1.1 and 1.4 as defined by the Object Management Group (OMG).
+                                </p> 
+                                <p>All UML 2 diagram representations for UML 2 are supported. It is also possible to create your own domain-specific modeling languages.</p>
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+        </section>
+    </div>
+</main>
+
+
+    <script>
+		function toggleContent(id) {
+			var content = document.getElementById(id);
+			var btn = content.previousElementSibling.querySelector('.expand-btn i');
+            content.classList.toggle('show');
+			if (content.classList.contains('show')) {
+                content.style.display = 'none';
+				btn.classList.remove('fa-minus-circle');
+				btn.classList.add('fa-plus-circle');
+			} else {
+                content.style.display = 'block';
+				btn.classList.remove('fa-plus-circle');
+				btn.classList.add('fa-minus-circle');
+			}
+		}
+
+
+        function toggleContactOptions(element) {
+    var contactIcons = element.nextElementSibling;
+    if (contactIcons.style.display === "flex") {
+        contactIcons.style.display = "none";
+    } else {
+        contactIcons.style.display = "flex";
+    }
+}
+
+function updateYear() {
+        document.getElementById('year').textContent = new Date().getFullYear();
+    }
+
+    // Call the updateYear function once the page loads
+    window.onload = function() {
+        updateYear();
+
+    };    
+
+
+	</script>
+
+
+<footer>
+	<div class="container">
+		<p></p>
+		<a href="https://instagram.com/btu_chesco?igshid=YmMyMTA2M2Y="> <i class="fa-brands fa-instagram fa-xl" style="color: #511f48;"></i></a>
+		<a href="https://www.linkedin.com/showcase/chesco-cottbus/"> <i class="fa-brands fa-linkedin fa-xl" style="color: #23498b;"></i></a></a>
+       <p>&copy; <span id="year"></span> CHESCO. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
